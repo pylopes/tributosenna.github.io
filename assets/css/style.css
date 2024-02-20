@@ -1,0 +1,176 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    height: 100px;
+}
+
+.container {
+    display: flex;
+    width: 950px;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    color: #000;
+}
+
+nav a:hover {
+    background-color: #00908a;
+    color: #e2c42d;
+    border-radius: 20px;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+}
+
+#banner {
+    background-image: url('../../media/senna_carro.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner h1 {
+    color: #fff;
+    font-size: 120px;
+    font-weight: bold;
+    text-shadow: 2px 2px 3px #000;
+}
+
+#carrer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.photo {
+    margin-top: 20px;
+}
+
+.photo img {
+    border-radius: 20px;
+    margin-right: 20px;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+}
+
+.about div {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.about p {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+#facts {
+    background-color: #00908a;
+    color: #e2c42d;
+    height: auto;
+    border-radius: 20px;
+}
+
+#facts .container {
+    justify-content: center;
+}
+
+#facts .container div {
+    margin: 20px;
+}
+
+
+#facts .container .honours_before_f1, 
+#facts .container .honours_fm1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.honours_before_f1 {
+    padding: 20px;
+    border-right: 1px solid #e2c42d;
+}
+
+.honours_fm1 {
+    padding: 20px;
+    border-left: 1px solid #e2c42d;
+}
+
+.honours_title {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#photos img {
+    width: 280px;
+    margin: 10px;
+    border: solid 5px #00908a;
+    border-radius: 10px;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    height: auto;
+    background-color: #00908a;
+    font-weight: bold;
+    color: #e2c42d;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer img {
+    height: 30px;
+    margin-top: 10px;
+}
